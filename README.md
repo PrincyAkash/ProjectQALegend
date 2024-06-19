@@ -1,0 +1,2 @@
+# ProjectQALegend
+AutomationTesting
