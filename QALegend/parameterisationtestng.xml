@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" Functional Suite">
+	<listeners>
+	<listener class-name="listeners.Annotation_Transformer"/>
+</listeners>
+  <test  name="Chrome Test">
+	  <parameter name="browser" value="Chrome"></parameter>
+	  <parameter name="baseurl" value="https://qalegend.com/billing/public/login"></parameter>
+    <classes>
+        <class name = "test.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+ </suite> <!-- Suite -->
